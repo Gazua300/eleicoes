@@ -1,0 +1,32 @@
+body{
+    background: rgb(28, 28, 134);
+    color: gold;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+#cont{
+    margin: 100px;
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    font-size: 15pt;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(178, 178, 238);
+    color: gold;
+}
+input[type='button']{
+    background-image: url(../_img/plano_fundo.jpg);
+    background-position: left;
+    cursor: pointer;
+}

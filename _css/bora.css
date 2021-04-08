@@ -1,0 +1,50 @@
+body{
+    background-image: url(../_img/plano_fundo.jpg);
+    color: gold
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#titulo{
+    font-size: 30pt;
+}
+
+label{
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+#conteudo{
+    text-align: center;
+    margin-top: 110px;
+    border: 1px solid;
+    padding: 10px;
+    width: 600px;
+    margin-left: 380px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px gold;
+}
+
+#res{
+    font-size: 17pt;
+}
+
+#popup{
+    display: none;
+}
+
+input[type = 'button']{
+    background-image: url(../_img/plano_fundo.jpg);
+    background-position: left;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: gold;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições Presidenciais</title>
+    <link rel="stylesheet" href="_css/bora.css">
+</head>
+<body>
+    <h1>Eleições Presidenciais</h1>
+    <div id="conteudo">
+        <span id="titulo">Candidatos</span>
+        <p><input type="radio" name="can" id="can2"><label for="can2">Bill Gates</label>
+        <input type="radio" name="can" id="can3"><label for="can3">Linus Torvalds</label>
+        <input type="radio" name="can" id="can4"><label for="can4">Dennis Ritche</label>
+        <input type="radio" name="can" id="can5"><label for="can5">Andy Rubin</label>
+        <div id="img"><div id="popup">Clique na imagem para uma breve biografia do candidato</div></div>
+        </p>
+        <input type="button" value="Votar" onclick="votar()">
+        <input type="button" value="Concluir" onclick="resultado()"><br>
+        <input type="button" value="Contagem" onclick="contagem()">
+        <input type="button" value="Sair" onclick="sair()">
+        <p id="res"></p>
+    </div>
+</body>
+    <script src="_js/bora.js"></script>
+</html>

@@ -3,30 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Inicial</title>
+    <title>Eleições tecnologicas</title>
     <link rel="stylesheet" href="_css/index.css">
-    <script>
-        addEventListener('load', ()=>{
-            alert('Os dados a seguir devem ser fictios pois se trata de um teste.')
-        })
-
-        function acesso(){
-            var nome = document.getElementById('nome')
-            var num = document.getElementById('num').value
-            
-            if(nome.value == '' || num == ''){
-                alert('Preencha os campos!')
-            }else if(num.length < 12){
-                alert('Número de título inválido!\nEstá incompleto.')
-                document.getElementById('num').focus()
-            }else if(num.length > 12){
-                alert('Número de título inválido!\nUltrapassou os 12 dígitos.')
-                document.getElementById('num').focus()
-            }else{
-                location.href = 'bora.html'
-            }
-        }
-    </script>
 </head>
 <body onload="nome.focus()">
     <h1>Acesso a página de votação</h1>
@@ -36,5 +14,10 @@
         <input type="text" id="num" placeholder="Número do título" onkeypress="return event.charCode >= 48 && event.charCode <= 57"><br><br>
         <input type="button" value="Entrar" onclick="acesso()">
     </p>
+    <footer>
+        &copy Gazua<br>
+        <a href="https://www.facebook.com/flamarion.francadasilva/" target="_blank">Facebook</a> | <a href="https://www.instagram.com/gazua300/" target="_blank">Instagram</a>
+    </footer> 
 </body>
+    <script src="_js/index.js"></script>            
 </html>

@@ -30,3 +30,12 @@ input[type='button']{
     background-position: left;
     cursor: pointer;
 }
+
+footer{
+    margin-top: 200px;
+    text-align: center;
+}
+
+a{
+    color: gold;
+}
